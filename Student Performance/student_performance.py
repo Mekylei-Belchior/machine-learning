@@ -27,8 +27,8 @@ from sklearn.model_selection import train_test_split
 import pickle
 
 # Fonte dos dados
-fonte_modelo = ''
-fonte_previsao = ''
+fonte_modelo = 'https://raw.githubusercontent.com/Mekylei-Belchior/machine-learning/master/Student%20Performance/student-mat.csv'
+fonte_previsao = 'https://raw.githubusercontent.com/Mekylei-Belchior/machine-learning/master/Student%20Performance/student-por.csv'
 
 ''' @@@ REMOVER ESTA LINHA E ACRESCENTAR (3 X [']) NO FINAL PARA CRIAR NOVO MODELO @@@
 
@@ -91,7 +91,7 @@ arquivo_pickle = open('linear_model_save.pickle', 'rb')
 modelo_linear = pickle.load(arquivo_pickle)
 
 # Carregamento de novos dados para previsão
-n_dados = pd.read_csv('student-por.csv', sep=';')
+n_dados = pd.read_csv(fonte_previsao, sep=';')
 
 # Definição dos atributos
 n_previsao = n_dados[
