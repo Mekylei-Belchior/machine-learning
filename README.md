@@ -1,2 +1,2 @@
-# machine-learning
-Trabalhos utilizando Machine Learning
+# Machine Learning
+Trabalhos utilizando Machine Learning.
