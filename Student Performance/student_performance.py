@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 ### MACHINE LEARNING - REGRESSION MODEL (STUDENT PERFORMANCE) ###
 #
 # Student Performance Data Set
